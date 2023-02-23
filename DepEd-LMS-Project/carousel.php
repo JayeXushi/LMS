@@ -10,41 +10,23 @@
 
     <div class="carousel-item active">
       <img src="img/coverr.jpg" class="d-block" alt="...">
-      <div class="hero__text">
-        <h1 class="text-sm-center font-700 font-shadow text-white">MATATAG</h1>
-        <p class="text-sm-center font-shadow text-white">Department of Education</p>
-        <a href="Things-to-do.php"><button type="button" class="mt-4 font-700">About</button></a>
-      </div>
       <div class="background"></div>
     </div>
 
     <div class="carousel-item">
       <img src="img/sara.png" class="d-block" alt="...">
-      <div class="hero__text">
-        <h1 class="text-sm-center font-700 font-shadow text-white"></h1>
-        <p class="text-sm-center font-shadow text-white"></p>
-        <a href="Things-to-do.php"><button type="button" class="mt-4 font-700">About</button></a>
-      </div>
       <div class="background"></div>
     </div>
 
     <div class="carousel-item">
       <img src="img/vp-brio.jpg" class="d-block" alt="...">
-      <div class="hero__text">
-        <h1 class="text-sm-center font-700 font-shadow text-white"></h1>
-        <p class="text-sm-center font-shadow text-white"></p>
-      </div>
       <div class="background"></div>
 
     </div>
 
     <div class="carousel-item">
-      <img src="img/jci-1.png" class="d-block" alt="...">
+      <img src="img/jci-poweredby.png" class="d-block" alt="...">
       <div class="hero__text">
-        <h1 class="text-sm-center font-700 font-shadow text-white">JCI Makati</h1>
-        <p class="text-sm-center font-shadow text-white"></p>
-        <a href="Things-to-do.php">
-          <button type="button" class="mt-4 font-700">About</button>
         </a>
       </div>
       <div class="background"></div>

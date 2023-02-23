@@ -10,26 +10,25 @@
       </ul>
     </div>
 
-    <div class="col-6 col-md-2 mb-3">
+    <div class="col-6 col-md-3 mb-3">
       <h5>Contact Us</h5>
       <ul class="nav flex-column contacts">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted orange-hover"><i class="fa-solid fa-phone-volume p-1"></i>+1234 567 890</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted orange-hover"><i class="fa-solid fa-location-dot p-2"></i>Lorem, ipsum</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted orange-hover"><i class="fa-solid fa-envelope p-1"></i>info@gmail.com</a></li>
+        <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted orange-hover"><i class="fa-solid fa-phone-volume p-1"></i>(+63 2) 8636 1663</a></li>
+        <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted orange-hover"><i class="fa-solid fa-location-dot p-2"></i>DepEd Complex, Meralco Ave., Pasig City, Metro Manila</a></li>
+        <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted orange-hover"><i class="fa-solid fa-envelope p-1"></i>action@deped.gov.ph</a></li>
       </ul>
     </div>
 
     <div class="socials col-6 col-md-2 mb-3">
       <h5>Social Media</h5>
       <ul class="nav d-flex">
-        <li class="nav-item mb-2 pe-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-facebook"></i></a></li>
-        <li class="nav-item mb-2 pe-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-twitter"></i></a></li>
-        <li class="nav-item mb-2 pe-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-google-plus-g"></i></a></li>
+        <li class="nav-item mb-1 pe-2"><a href="https://web.facebook.com/DepartmentOfEducation.PH/" class="nav-link p-0"><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="nav-item mb-1 pe-2"><a href="https://twitter.com/DepEd_PH" class="nav-link p-0"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="nav-item mb-1 pe-2"><a href="https://www.instagram.com/depedphilippines/" class="nav-link p-0"><i class="fa-brands fa-instagram"></i></a></li>
       </ul>
     </div>
 
-    <div class="col-md-5 offset-md-1 mb-3">
+    <div class="col-md-4 offset-md-1 mb-3">
       <form action="php/subscribe.php" method="POST">
         <h5 class="text-black">Subscribe to our newsletter</h5>
         <p class="text-muted">See what's new</p>
