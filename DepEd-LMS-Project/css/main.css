@@ -41,7 +41,11 @@ height: 40px;
 .section-padding{
   padding-top: 60px !important;
   padding-bottom: 60px !important;
+  
 }
+  .top .section-padding h1 {
+    color:pink;
+  }
   .top .my-nav {
     z-index: 2;
     position: absolute;
@@ -137,38 +141,7 @@ height: 40px;
        object-fit: cover;
     filter: contrast(110%);
   }
-  .top .carousel .carousel-inner .carousel-item .hero__text {
-    position: absolute;
-    top: 20em;
-    bottom: 0;
-    z-index: 1;
-    width: 100vw;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    align-items: center;
-  }
-  .top .carousel .carousel-inner .carousel-item .hero__text h1 {
-    font-size: 3.8rem;
-  }
-  .top .carousel .carousel-inner .carousel-item .hero__text p {
-    font-size: 1.7rem;
-  }
-  .top .carousel .carousel-inner .carousel-item .hero__text button {
-    font-size: 1.4rem;
-    border-radius: 10px;
-    border: 1px solid #ff5300;
-    background: #ff5300;
-    padding: 15px 30px 15px 30px;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 2px;
-  }
-  .top .carousel .carousel-inner .carousel-item .hero__text button:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border: 3px solid #ff5300;
-    color: #ff5300;
-  }
+
   .top .carousel .carousel-inner .carousel-item .background {
     background: rgba(0, 0, 0, 0.2);
     position: absolute;
@@ -181,11 +154,6 @@ height: 40px;
     text-align: center;
     align-items: center;
   }
-
-
-
-
-
 @media only screen and (max-width: 1200px) {
   .fs-36px {
     font-size: 36px !important;

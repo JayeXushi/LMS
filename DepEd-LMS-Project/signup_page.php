@@ -1,3 +1,12 @@
+<?php 
+	//include 'database/connection/Connection.php';
+	/*include 'Functions/Functions.php';
+
+	if (isset($_POST['Submit'])) {
+		insert_new_data();
+	}*/
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -48,60 +57,70 @@
 		<?php require 'links.php'; ?>
 	</head>
 	<body>
-    <?php include 'index-nav.php'; ?>
-		<center>
-			<div id="form-div">
-			<div id="form-background"><form class="center_form" action="new_user_form_handler.php" method="POST" id="new_user_from">
-			<h2 id="signup-title"><i class="fa fa-user-plus" aria-hidden="true"></i> CREATE NEW USER ACCOUNT</h2>
-			<br>
-			
-			<table cellpadding='10'>
-				<strong>ENTER LOGIN DETAILS</strong>
-				<tr>
-					<td class="flabel">Enter Username  </td>
-					<td><input type="text" name="username" required><br><br></td>
-				</tr>
-				<tr>
-					<td class="flabel">Enter Password  </td>
-					<td><input type="password" name="password" required><br><br></td>
-				</tr>
-                <tr>
-					<td class="flabel">Confirm  Password  </td>
-					<td><input type="password" name="confirmPassword" required><br><br></td>
-				</tr>
-				<tr>
-					<td class="flabel">Enter Email </td>
-					<td><input type="text" name="email" required><br><br></td>
-				</tr>
-				<tr>
-					<td class="flabel">Select Category</td>
-					<td><select>
-						<option>Student</option>
-						<option>Teacher</option>
-					</select><br><br></td>
-				</tr>
-			</table>
-			<br>
-			<table cellpadding='10'>
-				<strong>PERSONAL DETAILS</strong>
-				<tr>
-					<td class="flabel">Enter Firstname  </td>
-					<td ><input type="text" name="name" required><br><br></td>
-				</tr>
-                <tr>
-					<td class="flabel">Enter Lastname  </td>
-					<td><input type="text" name="name" required><br><br></td>
-				</tr>
-				<tr>
-					<td class="flabel">Enter Phone Number</td>
-					<td><input type="text" name="phone_no" required><br><br></td>
-				</tr>
-			</table>
-			
-			<br>
-			<input type="submit" value="Submit" name="Submit">
-			<br>
-		</form></div></div></center>
+    <div class="wrapper" id="wrapper">
+        <!-- Hero Images, Navigation, Texts -->
+            <section class="top">
+                <?php include 'index-nav.php'; ?>
+            </section>
+    </div>
+	<center>
+				<div id="form-div">
+				<div id="form-background">
+					<form class="center_form" action="" method="POST" id="new_user_from">
+				<h2 id="signup-title"><i class="fa fa-user-plus" aria-hidden="true"></i> CREATE NEW USER ACCOUNT</h2>
+				<br>
+				
+				<table cellpadding='10'>
+					<strong>ENTER LOGIN DETAILS</strong>
+					<tr>
+						<td class="flabel">Enter Username  </td>
+						<td><input type="text" name="username" required><br><br></td>
+					</tr>
+					<tr>
+						<td class="flabel">Enter Password  </td>
+						<td><input type="password" name="password" required><br><br></td>
+					</tr>
+					<tr>
+						<td class="flabel">Confirm  Password  </td>
+						<td><input type="password" name="confirmPassword" required><br><br></td>
+					</tr>
+					<tr>
+						<td class="flabel">Enter Email </td>
+						<td><input type="text" name="email" required><br><br></td>
+					</tr>
+					<tr>
+						<td class="flabel">Select Category</td>
+						<td><select name="type">
+							<option value="1">Student</option>
+							<option value="2">Teacher</option>
+						</select><br><br></td>
+					</tr>
+				</table>
+				<br>
+				<table cellpadding='10'>
+					<strong>PERSONAL DETAILS</strong>
+					<tr>
+						<td class="flabel">Enter Firstname  </td>
+						<td ><input type="text" name="first_name" required><br><br></td>
+					</tr>
+					<tr>
+						<td class="flabel">Enter Lastname  </td>
+						<td><input type="text" name="last_name" required><br><br></td>
+					</tr>
+					<tr>
+						<td class="flabel">Enter Phone Number</td>
+						<td><input type="text" name="phone_no" required><br><br></td>
+					</tr>
+				</table>
+				
+				<br>
+				<input type="submit" value="Submit" name="Submit">
+				<br>
+			</form>
+		</div>
+	</div>
+	</center>
+	<?php include 'footer.php'; ?>
 		<?php include 'script.php'; ?>
 	</body>
 </html>

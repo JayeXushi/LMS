@@ -25,9 +25,8 @@
     </div>
 
     <div class="carousel-item">
-      <img src="img/jci-poweredby.png" class="d-block" alt="...">
+      <img src="img/jci-1.png" class="d-block" alt="...">
       <div class="hero__text">
-        </a>
       </div>
       <div class="background"></div>
     </div>

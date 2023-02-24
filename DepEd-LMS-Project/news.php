@@ -13,11 +13,11 @@
         .card{
             margin: 5px; 
             text-align: justify;
-            border: 3px solid #00CFE7 !important;
+            border: 3px solid grey !important;
         }
 
         .card .a-bg{
-            background-color: #B4B4B4;
+            background-color: grey;
             padding: 5px;
             border-radius: 25px;
         }
@@ -28,7 +28,7 @@
         }
 
         .card .a-bg:hover, .card a:hover{
-            background-color: #00CFE7 !important;
+            background-color: #00CFE7;
             transition: .5s ;
             font-weight: bold;
         }
@@ -40,9 +40,11 @@
     </style>
 </head>
 <body>
-    <!-- Hero Images, Navigation, Texts -->
-    <?php include 'index-nav.php'; ?>
-
+    <div class="wrapper" id="wrapper">
+        <!-- Hero Images, Navigation, Texts -->
+            <section class="top">
+                <?php include 'index-nav.php'; ?>
+            </section>
     <div id="news-container">
         <center>
             <h1 class="fw-bold">News and Updates<br></h1>
@@ -56,7 +58,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>
@@ -66,7 +68,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>
@@ -76,7 +78,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>
@@ -86,7 +88,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>    
@@ -98,7 +100,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>
@@ -108,7 +110,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>
@@ -118,7 +120,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>
@@ -128,7 +130,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="a-bg"><center><a href="" class="a-readmore">Read More...</a></center></div>
+                        <div class="a-bg"><center><a href="">Read More...</a></center></div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 <td>    

@@ -1,14 +1,8 @@
 <div class="section-footer">
 <footer class="py-5 mt-5 border-top container">
   <div class="row">
-    <div class="col-6 col-md-2 mb-3">
-      <h5>About DepEd</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted orange-hover">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted orange-hover">Privacy</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted orange-hover">Terms and Conditions</a></li>
-      </ul>
-    </div>
+    <div class="col-6 col-md-1 mb-3">
+         </div>
 
     <div class="col-6 col-md-3 mb-3">
       <h5>Contact Us</h5>
