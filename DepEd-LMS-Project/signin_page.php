@@ -7,14 +7,9 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <?php require 'links.php'; ?>
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <?php include 'script.php'; ?>
   </head>
   <body>
     <div class="wrapper" id="wrapper">
@@ -60,16 +55,15 @@
                   <input type="checkbox" checked="checked"/>
                   <div class="control__indicator"></div>
                 </label>
-                <span class="ml-auto"><a href="#" class="forgot-pass" style="color:white;">Forgot Password</a></span> 
+                <span class="ml-auto"><a href="#" class="forgot-pass" style="color:white;">Forgot Password</a></span>
               </div>
-
-              <input type="submit" value="Log In" class="btn btn-block btn-primary">
-
-              <span class="d-block text-left my-4 text-muted" >&mdash; <b style="color:white;"> or Login with DepEd Account</b> &mdash;</span>
-              
+              <div>
+                <input type="submit" value="Log In" class="btn btn-block btn-primary">
+                <span class="d-block text-left my-4 text-muted" >&mdash; <b style="color:white;"> or Login with DepEd Account</b> &mdash;</span>
+              </div>
               <div class="social-login">
                   <a href="#" class="google">
-                  <span class="icon-google mr-3"></span> 
+                  <span class="fa-brands fa-google"></span> 
                 </a>
               </div>
             </form>
@@ -81,9 +75,7 @@
   </div>
   </div>
    </section>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+   <?php include 'footer.php'; ?>
+    <?php include 'script.php'; ?>
   </body>
 </html>

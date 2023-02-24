@@ -1,12 +1,3 @@
-<?php 
-	//include 'database/connection/Connection.php';
-	/*include 'Functions/Functions.php';
-
-	if (isset($_POST['Submit'])) {
-		insert_new_data();
-	}*/
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -64,9 +55,9 @@
             </section>
     </div>
 	<center>
+			<form>
 				<div id="form-div">
-				<div id="form-background">
-					<form class="center_form" action="" method="POST" id="new_user_from">
+				<div id="form-background"><form class="center_form" action="new_user_form_handler.php" method="POST" id="new_user_from">
 				<h2 id="signup-title"><i class="fa fa-user-plus" aria-hidden="true"></i> CREATE NEW USER ACCOUNT</h2>
 				<br>
 				
@@ -90,9 +81,9 @@
 					</tr>
 					<tr>
 						<td class="flabel">Select Category</td>
-						<td><select name="type">
-							<option value="1">Student</option>
-							<option value="2">Teacher</option>
+						<td><select>
+							<option>Student</option>
+							<option>Teacher</option>
 						</select><br><br></td>
 					</tr>
 				</table>
@@ -101,11 +92,11 @@
 					<strong>PERSONAL DETAILS</strong>
 					<tr>
 						<td class="flabel">Enter Firstname  </td>
-						<td ><input type="text" name="first_name" required><br><br></td>
+						<td ><input type="text" name="name" required><br><br></td>
 					</tr>
 					<tr>
 						<td class="flabel">Enter Lastname  </td>
-						<td><input type="text" name="last_name" required><br><br></td>
+						<td><input type="text" name="name" required><br><br></td>
 					</tr>
 					<tr>
 						<td class="flabel">Enter Phone Number</td>
@@ -121,6 +112,6 @@
 	</div>
 	</center>
 	<?php include 'footer.php'; ?>
-		<?php include 'script.php'; ?>
+	<?php include 'script.php'; ?>
 	</body>
 </html>

@@ -1,9 +1,6 @@
 <div class="section-footer">
 <footer class="py-5 mt-5 border-top container">
   <div class="row">
-    <div class="col-6 col-md-1 mb-3">
-         </div>
-
     <div class="col-6 col-md-3 mb-3">
       <h5>Contact Us</h5>
       <ul class="nav flex-column contacts">
@@ -36,12 +33,13 @@
   </div>
 
   <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-    <p>&copy; All rights reserved.</p>
+    <p>&copy; LMS TEAM, All rights reserved.</p>
     <ul class="list-unstyled d-flex">
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
     </ul>
   </div>
+  <p class="text-white"> Jaye,Gelo,Mark</p>
 </footer>
 </div>

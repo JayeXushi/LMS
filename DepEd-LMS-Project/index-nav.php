@@ -12,7 +12,7 @@
   <div class="my-nav w-100 position-relative"  id="nav">
     <div class="container d-flex flex-wrap py-2 justify-content-between align-items-center">
           <div class="d-xl-flex align-items-center d-none">
-              <a href="index.php" class="mb-md-0 text-decoration-none text-black d-none d-xl-flex">
+              <a href="index.php" class="mb-md-0 text-decoration-none text-black d-none d-xl-flex logo">
               <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
               <img style="height:100px; width:200px;" src="img/deped.png" class="d-block" alt="...">
               </a>

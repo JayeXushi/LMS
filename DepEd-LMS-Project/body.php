@@ -29,21 +29,21 @@
                     <h4>Other DepEd Websites:</h4>
                     </div>
                     <ul>
-                        <a href = "https://sites.google.com/deped.gov.ph/depedetulayeduplaylist/home">
+                        <a href ="https://sites.google.com/deped.gov.ph/depedetulayeduplaylist/home">
                         <img src="img/deped-tulay.png" class="w-50">
                         </a>
-                        <a href = "https://commons.deped.gov.ph/">
+                        <a href ="https://commons.deped.gov.ph/">
                         <img src="img/deped-commons.png" class="w-50">
                         </a>
-                        <a href = "https://lms.deped.gov.ph/category/deped-tv/">
+                        <a href ="https://lms.deped.gov.ph/category/deped-tv/">
                         <img src="img/deped-tv.png" class="w-50">
                         </a>
-                        <a href = "https://lrmds.deped.gov.ph/">
+                        <a href ="https://lrmds.deped.gov.ph/">
                         <img src="img/deped-lrmds.png" class="w-50">
                         </a>
                     </ul>
                     <p>In Partnership with:</p>
-                    <a href = "https://www.jcimakati.com/">
+                    <a href ="https://www.jcimakati.com/">
                     <img src="img/jci-1.png" class="w-50">
                     </a>
                     <img src="img/jci-2.png" class="w-50">
@@ -51,6 +51,7 @@
                 </div>
             </div>
         </div>
+        <?php include 'owlcarousel.php'; ?>
     </section>     
 </body>
 </html>

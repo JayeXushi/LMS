@@ -15,8 +15,9 @@
             <section class="top">
                 <?php include 'index-nav.php'; ?>
             </section>
-        <section class="vh-100">
-            <div class="container mt-5">
+        <section>
+            <div class="container pt-2">
+                <hr>
                 <h3>Title</h3>
                 <p class="text-muted">Subtitle</p>
 
@@ -210,5 +211,7 @@
                     </div>
                     </div>
         </section>
+        <?php include 'footer.php'; ?>
+        <?php include 'script.php'; ?>
 </body>
 </html>

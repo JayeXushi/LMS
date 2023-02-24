@@ -8,36 +8,6 @@
     <?php require 'links.php'; ?>
 
     <?php include 'script.php'; ?>
-
-    <style type="text/css">
-        .card{
-            margin: 5px; 
-            text-align: justify;
-            border: 3px solid grey !important;
-        }
-
-        .card .a-bg{
-            background-color: grey;
-            padding: 5px;
-            border-radius: 25px;
-        }
-
-        .card a{
-            text-decoration: none;
-            color: white !important;
-        }
-
-        .card .a-bg:hover, .card a:hover{
-            background-color: #00CFE7;
-            transition: .5s ;
-            font-weight: bold;
-        }
-
-        #news-table{
-            margin-right: 50px;
-            margin-left: 50px;
-        }
-    </style>
 </head>
 <body>
     <div class="wrapper" id="wrapper">
@@ -49,11 +19,11 @@
         <center>
             <h1 class="fw-bold">News and Updates<br></h1>
         </center>
-            
+        <section class="group-card">  
         <table id="news-table">
             <tr>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -63,7 +33,7 @@
                     </div>
                 <td>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -73,7 +43,7 @@
                     </div>
                 <td>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -83,7 +53,7 @@
                     </div>
                 <td>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -95,7 +65,7 @@
             <tr>
             <tr>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -105,7 +75,7 @@
                     </div>
                 <td>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -115,7 +85,7 @@
                     </div>
                 <td>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -125,7 +95,7 @@
                     </div>
                 <td>
                 <td>
-                    <div class="card">
+                    <div class="team-card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -137,6 +107,7 @@
             <tr>
         </table>
     </div>
+    </section> 
       
     <?php include 'footer.php'; ?>
 </body>

@@ -15,49 +15,63 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(window).bind("scroll", function () {
     if ($(window).scrollTop() > 0) {
-      $("nav").addClass("scroll-active");
+      $("#nav").addClass("scroll-active");
     } else {
-      $("nav").removeClass("scroll-active");
+      $("#nav").removeClass("scroll-active");
     }
   });
 });
 
-// <-- image tracker --> used on body 
-const track = document.getElementById("image-track");
-window.onmousedown = e =>{
-
-  track.dataset.mouseDownAt = e.clientX;
-}
-window.onmousedown = () =>{
-  track.dataset.mouseDownAt = "0";
-  track.dataset.prevPercentage = track.dataset.percentage;
-}
-window.onmousemove = e => {
-  const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-    maxDelta = window.innerWidth / 2;
-  
-  const percentage = (mouseDelta / maxDelta) * -100;
-    nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
-
-    track.dataset.prevPercentage = nextPercentage;
-  track.style.transform = `translate(${percentage}%, -50%)`;
-}
-track.animate({
-  transform: `translate(${nextPercentage}%, 50%)`
-}, {duration: 1200, fill:"fowards"});
-image.animate({
-  transform: `translate(${100 + nextPercentage}%, center)`
-}, {duration: 1200, fill:"fowards"});
-
-for (const image of track.getElementsByClassName("image")){
-  image.style.objectPostition =`${nextPercentage +100} 50%`;
-}
-
-
-// <-- Modal --> 
-const myModal = document.getElementById("myModal");
-const myInput = document.getElementById("myInput");
-
-myModal.addEventListener("shown.bs.modal", () => {
-  myInput.focus();
+// <-- Owl Carousel --> Used in Things to do Page
+// input.setAttribute("size", input.getAttribute("placeholder").length);
+$(document).ready(function () {
+  $("#owl-one").owlCarousel({
+    loop: true,
+    margin: 0,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      768: {
+        items: 3,
+      },
+      1100: {
+        items: 5,
+      },
+      1400: {
+        items: 7,
+        loop: false,
+      },
+    },
+  });
+  $("#owl-two").owlCarousel({
+    loop: true,
+    margin: 0,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+      1100: {
+        items: 3,
+      },
+      1400: {
+        items: 3,
+        loop: false,
+      },
+    },
+  });
 });
+
+
+// // <-- Modal --> 
+// const myModal = document.getElementById("myModal");
+// const myInput = document.getElementById("myInput");
+
+// myModal.addEventListener("shown.bs.modal", () => {
+//   myInput.focus();
+// });
