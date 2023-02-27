@@ -7,7 +7,7 @@
   <div class="owl-carousel owl-theme" id="owl-one">
     <div class="item">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1625895197185-efcec01cffe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVtb24lMjBzbGF5ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+        <img style="height:20vh;" src="picsample/pic1.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <h4 class="card-title text-white font-shadow"></h4>
         </div>
@@ -15,7 +15,7 @@
     </div>
     <div class="item">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVtb24lMjBzbGF5ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+        <img style="height:20vh;" src="picsample/pic2.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <h4 class="card-title text-white font-shadow"></h4>
         </div>
@@ -23,7 +23,7 @@
     </div>
     <div class="item">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1626155399229-a59970db8478?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZGVtb24lMjBzbGF5ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+        <img style="height:20vh;" src="picsample/pic3.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <h4 class="card-title text-white font-shadow"></h4>
         </div>
@@ -31,7 +31,7 @@
     </div>
     <div class="item">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1630710478039-9c680b99f800?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmFydXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+        <img style="height:20vh;" src="picsample/pic4.jpeg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <h4 class="card-title text-white font-shadow"></h4>
         </div>
@@ -39,7 +39,7 @@
     </div>
     <div class="item">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1615592389070-bcc97e05ad01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmFydXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+        <img style="height:20vh;" src="picsample/pic5.png" class="card-img" alt="...">
         <div class="card-img-overlay">
           <h4 class="card-title text-white font-shadow"></h4>
         </div>
@@ -94,7 +94,7 @@
   <div class="owl-carousel owl-theme" id="owl-two">
     <div class="item">
       <div class="card" style="width: 19rem;">
-        <img src="https://images.unsplash.com/photo-1669618726566-d49056b93915?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhaW5zYXclMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        <img style="height: 547px;" src="picsample/etaguyod.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-muted uppercase letter-spacing"></p>
           <h5 class="card-title"></h5>
@@ -103,7 +103,7 @@
     </div>
     <div class="item">
       <div class="card" style="width: 19rem;">
-        <img src="https://images.unsplash.com/photo-1541562232579-512a21360020?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5hcnV0b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        <img src="picsample/etaguyod1.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-muted uppercase letter-spacing"></p>
           <h5 class="card-title"></h5>
@@ -112,7 +112,7 @@
     </div>
     <div class="item">
       <div class="card" style="width: 19rem;">
-        <img src="https://images.unsplash.com/photo-1518208682109-c56c3f9c3178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZG9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        <img src="picsample/etaguyod2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-muted uppercase letter-spacing"></p>
           <h5 class="card-title"></h5>
