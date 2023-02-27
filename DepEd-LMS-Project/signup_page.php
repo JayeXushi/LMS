@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+	include 'Functions/Functions.php';
+?>
+<html>
 	<head>
 		<title>
 			DepEd E-Learning Management
 		</title>
 		<style>
-			body{
-				background-color: lightgray;
-			}
-			input, select{
-    			border: 3px solid lightgreen;
+			input {
+    			border: 1.5px solid #030337;
     			border-radius: 4px;
     			padding: 7px 30px;
 			}
@@ -20,98 +19,68 @@
     			padding: 7px 45px;
     			margin: 0px 135px
 			}
-			#form-div{
-				background-color: #030337;
-			}
-			#signup-title{
-				background: #0E86C7;
-				padding: 10px;
-				color: white;
-			}
-			.flabel{
-				font-size: 25px;
-				font-weight: bold;
-
-			}
-			#form-background{
-				background-color: white;
-				width: 70%;
-				margin-right: auto;
-				margin-left: auto;
-			}
-
-
 		</style>
-		<meta charset="UTF-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<?php require 'links.php'; ?>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
 	</head>
 	<body>
-    <div class="wrapper" id="wrapper">
-        <!-- Hero Images, Navigation, Texts -->
-            <section class="top">
-                <?php include 'index-nav.php'; ?>
-            </section>
-    </div>
-	<center>
-			<form>
-				<div id="form-div">
-				<div id="form-background"><form class="center_form" action="new_user_form_handler.php" method="POST" id="new_user_from">
-				<h2 id="signup-title"><i class="fa fa-user-plus" aria-hidden="true"></i> CREATE NEW USER ACCOUNT</h2>
-				<br>
-				
-				<table cellpadding='10'>
-					<strong>ENTER LOGIN DETAILS</strong>
-					<tr>
-						<td class="flabel">Enter Username  </td>
-						<td><input type="text" name="username" required><br><br></td>
-					</tr>
-					<tr>
-						<td class="flabel">Enter Password  </td>
-						<td><input type="password" name="password" required><br><br></td>
-					</tr>
-					<tr>
-						<td class="flabel">Confirm  Password  </td>
-						<td><input type="password" name="confirmPassword" required><br><br></td>
-					</tr>
-					<tr>
-						<td class="flabel">Enter Email </td>
-						<td><input type="text" name="email" required><br><br></td>
-					</tr>
-					<tr>
-						<td class="flabel">Select Category</td>
-						<td><select>
-							<option>Student</option>
-							<option>Teacher</option>
-						</select><br><br></td>
-					</tr>
-				</table>
-				<br>
-				<table cellpadding='10'>
-					<strong>PERSONAL DETAILS</strong>
-					<tr>
-						<td class="flabel">Enter Firstname  </td>
-						<td ><input type="text" name="name" required><br><br></td>
-					</tr>
-					<tr>
-						<td class="flabel">Enter Lastname  </td>
-						<td><input type="text" name="name" required><br><br></td>
-					</tr>
-					<tr>
-						<td class="flabel">Enter Phone Number</td>
-						<td><input type="text" name="phone_no" required><br><br></td>
-					</tr>
-				</table>
-				
-				<br>
-				<input type="submit" value="Submit" name="Submit">
-				<br>
-			</form>
-		</div>
-	</div>
-	</center>
-	<?php include 'footer.php'; ?>
-	<?php include 'script.php'; ?>
+    <center>
+        <h1>DepEd Learning Management System</h1>
+        <h4>by JCI Makati</h4>
+        <h2>Region: NCR-Manila</h2>
+        <a href="index.html">Home</a> 
+     <a href="mission.html">Mission</a>
+     <a href="vision.html">Vision</a>
+     <a href="news.html">News</a> 
+     <a href="contactUs.html">Contact us</a>
+     <a href="aboutUs.html">About Us</a>
+     <a href="signin_page.php"> Sign in</a>
+     <a href="signup_page.php"> Sign up</a>
+		<br>
+		<br>
+		<br>
+        </center>
+		<form class="center_form" action="" method="POST" id="new_user_from">
+			<h2><i class="fa fa-user-plus" aria-hidden="true"></i> CREATE NEW USER ACCOUNT</h2>
+			<br>
+			<table cellpadding='10'>
+				<strong>ENTER LOGIN DETAILS</strong>
+				<tr>
+					<td>Enter a username  </td>
+					<td><input type="text" name="username" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Enter your  password  </td>
+					<td><input type="password" name="password" required><br><br></td>
+				</tr>
+                <tr>
+					<td>Enter confirmed  password  </td>
+					<td><input type="password" name="confirmPassword" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Enter your Email ID</td>
+					<td><input type="text" name="email" required><br><br></td>
+				</tr>
+			</table>
+			<br>
+			<table cellpadding='10'>
+				<strong>PERSONAL DETAILS</strong>
+				<tr>
+					<td>Enter your first name  </td>
+					<td><input type="text" name="name" required><br><br></td>
+				</tr>
+                <tr>
+					<td>Enter your last name  </td>
+					<td><input type="text" name="name" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Enter your phone number</td>
+					<td><input type="text" name="phone_no" required><br><br></td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="Submit" name="Submit">
+			<br>
+		</form>
 	</body>
 </html>
