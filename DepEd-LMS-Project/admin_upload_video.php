@@ -1,4 +1,6 @@
 <?php 
+    include 'Functions/Functions.php';
+
     if (isset($_GET['error'])) {
                 echo '<script type="text/javascript">';
                 echo 'alert("invalid video type")';
@@ -7,29 +9,7 @@
 
     if (isset($_FILES['my_video']) && isset($_POST['submits'])) {
 
-        $video_name = $_FILES['my_video']['name'];
-        $tmp_name = $_FILES['my_video']['tmp_name'];
-        $error = $_FILES['my_video']['error'];
-
-        if ($error === 0) {
-            $video_ex = pathinfo($video_name, PATHINFO_EXTENSION);
-
-            $video_ex_lc = strtolower($video_ex);
-
-            $allowed_exs = array("mp4", 'webm', 'avi', 'flv');
-
-            if(in_array($video_ex_lc, $allowed_exs)){
-                
-                $new_video_name = uniqid("video-", true).'.'.$video_ex_lc;
-                $video_upload_path = 'video_uploads/'.$new_video_name;
-                move_uploaded_file($tmp_name, $video_upload_path);
-
-            }else{
-                $em = "You Can't Upload Files Of This Type";
-                header("location:admin_upload_video.php?error=".$em."");
-            }
-
-        }
+            insert_new_video();
 
     }
 ?>
@@ -46,12 +26,23 @@
             background-color: #043e6c;
             padding: 50px;
         }
-        #add_vid_container{
-            width: 70%;
+        #add_vid_container, #show_uploaded_video{
+            width: 80%;
             margin-left: auto;
             margin-right: auto;
             background-color: white;
             padding: 50px;
+        }
+        #video_table{
+            text-align: center;
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+        #video_table th{
+            padding: 10px;
+        }
+        #video_table td{
+            padding: 10px;
         }
     </style>
 </head>
@@ -69,17 +60,24 @@
             <form action="" method="post" enctype="multipart/form-data">
 
                 <label>Video Title: </label><br>
-                <input type="text" name="Video_Title"><br>
+                <input type="text" name="Video_Title" required=""><br>
                 <label>Video Author: </label><br>
-                <input type="text" name="Video_Author"><br>
+                <input type="text" name="Video_Author" required=""><br>
                 <label>Video Description: </label><br>
-                <textarea name="Video_Description"></textarea><br>
+                <textarea name="Video_Description" required=""></textarea><br>
                 <label>Select Video File: </label><br>
-                <input type="file" name="my_video"><br><br>
+                <input type="file" name="my_video" required=""><br><br>
                 <center>
                 <input type="submit" name="submits" value="Upload">
                 </center>
             </form>
+        </div>
+        <div id="show_uploaded_video">
+            <center><table id="video_table">
+                <?php 
+                show_uploaded_video();
+                ?>
+            </table></center>
         </div>
     </div>
 </body>
