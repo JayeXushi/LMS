@@ -14,8 +14,9 @@
         <!-- Hero Images, Navigation, Texts -->
             <section class="top">
                 <?php include 'index-nav.php'; ?>
+			</section>
                 <div class="row d-flex justify-content-between">
-		<center>
+<center>
 			<div class="page-content col-xl-9 col-md-12 col-xs-12">
 				<!-- About the University -->
 				<div class="container-fluid">
@@ -73,8 +74,8 @@
 												</div>
 											</div>
 											<div class="col-xl-2 col-md-12 col-xs-12"><!-- for spacing --></div>
-											<span class="title">The organizational structure of the DepEd Central office can be viewed at
-											<a href="https://www.deped.gov.ph/wp-content/uploads/2015/10/DO_s20	15_52.pdf">	DO 52, s. 2015</a></p>
+											<span class="title"></span>
+											<a href="#"></a></p>
 										</div>
 									</div>
 								</div>
@@ -123,7 +124,6 @@
 							</div>
 					</div>
 				</div>
-            </section>
 </center>
         <!-- Footer -->
         <?php include 'footer.php'; ?>

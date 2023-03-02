@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses</title>
+    <title>Mga Kurso</title>
     <?php require 'links.php'; ?>
 
     <?php include 'script.php'; ?>
@@ -18,26 +18,20 @@
         <section>
             <div class="container pt-2">
                 <hr>
-                <h3>Title</h3>
-                <p class="text-muted">Subtitle</p>
+                <h3>Mga Kurso</h3>
+                <p class="text-muted">Ikaw ay Isang?</p>
 
-                <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="row row-cols-1 row-cols-md-2 g-2 mt-2">
 
                     <div class="col">
                     <div class="card">
-                        <img src="https://images.unsplash.com/photo-1677034897383-d7dffb7615f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <img src="img/student.png" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h3 class="card-title"></h3>
                         <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
+                            <span class="rating-number">Estudyante</span>
                             <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                           <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
+                           <i><a href="cont-courses.php"><button type="button" class="mt-1 font-500">Piliin</button></a></i></span>
                             <span class="rating-count"></span>
                         </div>
                         <p class="card-text text-muted"></p>
@@ -47,172 +41,13 @@
 
                     <div class="col">
                     <div class="card">
-                        <img src="https://images.unsplash.com/photo-1677022733442-99d2d7c60c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <img src="img/teacher.png" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h3 class="card-title"></h3>
                         <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
+                            <span class="rating-number">Guro</span>
                             <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
-                            <span class="rating-count"></span>
-                        </div>
-                        <p class="card-text text-muted"></p>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1677061857086-8175847f19fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title"></h3>
-                        <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
-                            <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
-                            <span class="rating-count"></span>
-                        </div>
-                        <p class="card-text text-muted"></p>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1676963490084-8fc55194a502?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title"></h3>
-                        <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
-                            <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
-                            <span class="rating-count"></span>
-                        </div>
-                        <p class="card-text text-muted"></p>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1677058569057-675cb6f0e4d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title"></h3>
-                        <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
-                            <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
-                            <span class="rating-count"></span>
-                        </div>
-                        <p class="card-text text-muted"></p>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1677032448306-fc2de110276d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title"></h3>
-                        <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
-                            <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
-                            <span class="rating-count"></span>
-                        </div>
-                        <p class="card-text text-muted"></p>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1677010062850-9fbd31bfc8c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title"></h3>
-                        <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
-                            <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
-                            <span class="rating-count"></span>
-                        </div>
-                        <p class="card-text text-muted"></p>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1677050564212-633b21b6226f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title"></h3>
-                        <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
-                            <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
-                            <span class="rating-count"></span>
-                        </div>
-                        <p class="card-text text-muted"></p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1676807882693-a6addc5ec5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNzN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title"></h3>
-                        <div class="rating mb-2">
-                            <span class="rating-number">4.5</span>
-                            <span class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
-                            </span>
+                            <i><a href="cont-courses.php"><button type="button" class="mt-1 font-500">Piliin</button></a></i></span>
                             <span class="rating-count"></span>
                         </div>
                         <p class="card-text text-muted"></p>
@@ -221,6 +56,5 @@
                     </div>
         </section>
         <?php include 'footer.php'; ?>
-        <?php include 'script.php'; ?>
 </body>
 </html>

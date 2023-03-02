@@ -24,7 +24,7 @@
                         <p>Given this, Duterte reminded the officials and employees — which include teaching and non-teaching personnel in schools — to practice the “highest form of professionalism.”</p>
                         <p>DepEd officials and employees were also asked to observe several measures to ensure the promotion of professionalism in the implementation and delivery of basic education programs and services.</p> 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4    ">
                     <div class="deped_web">
                     <h4>Other DepEd Websites:</h4>
                     </div>
