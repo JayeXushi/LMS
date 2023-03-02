@@ -9,12 +9,20 @@
   <div class="carousel-inner">
 
     <div class="carousel-item active">
-      <img src="img/coverr.jpg" class="d-block" alt="...">
-      <div class="background"></div>
+      <img src="img/car_deped.png" class="d-block" alt="...">
+      <div class="hero__text">
+        <h1 class="text-sm-center font-700 font-shadow text-white">Mission</h1>
+        <p class="text-sm-center font-shadow text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+        <div class="background"></div>
     </div>
 
     <div class="carousel-item">
-      <img src="img/sara.png" class="d-block" alt="...">
+      <img src="img/e-taguro.jpg" class="d-block" alt="...">
+      <div class="hero__text">
+        <h1 class="text-sm-center font-700 font-shadow text-white">Vision</h1>
+        <p class="text-sm-center font-shadow text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
       <div class="background"></div>
     </div>
 

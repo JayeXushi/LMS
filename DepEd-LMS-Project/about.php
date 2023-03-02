@@ -29,7 +29,7 @@
 										<div class="column">
 											<div class="img-wrapper-black-sub">
 												<br>
-												<img style="width:115vh; height:20vh;"src="img/DepEd-Website-header.png">
+												<img style="width:115vh; height:15vh;"src="img/DepEd-Website-header.png">
 												<img src="img/transparency-seal-.png">
 											</div>
 										</div>
@@ -37,15 +37,15 @@
 										<div class="column">
 											<div class="text-wrapper">
 												<br>
-												<h4 class="title" style="text-align:left; font-size:5vh;">Department of Education	</h4>
+												<h4 class="title" style="text-align:left; font-size:5vh;">E-Taguyod</h4>
 												<br>
-												<p style="text-align:left; padding-left:7vh; ">The Department of Education (DepEd) formulates, implements, and coordinates policies, plans, programs and projects in the areas of formal and non-formal basic education.</p>
+												<p style="text-align:left; padding-left:7vh; ">Ang E-Taguyod ay isang.................................</p>
 											</div>
 										</div>
 									</div>
 
 								<div class="intro-text">
-									<p style="text-align:left; padding-left:7vh;">The Department of Education is the executive department of the Philippine government responsible for ensuring access to, promoting equity in, and improving the quality of basic education. It is the main agency tasked to manage and govern the Philippine system of basic education.</p>
+									<p style="text-align:left; padding-left:7vh;">sdfasfasfasdf</p>
 								</div>
 							</div>
 						</div>
@@ -57,7 +57,7 @@
 					<div class="page-content-items">
 						<div class="row">
 							<div id="au-ip" class="section-title col-xl-12 col-md-12 col-xs-12">
-								<span style="font-size:5vh;">DepEd Institutional Structure</span>
+								<span style="font-size:5vh;">DepEd E-Taguyod</span>
 							</div>
 						</div>
 
@@ -69,7 +69,7 @@
 										<div class="row">
 											<div class="col-xl-4 col-md-12 col-xs-12">
 												<div class="section-icons-item">
-													<img style="width:137vh;" src="img/DepEd-structure.png">
+													<img style="width:137vh;" src="img/ano.jpg">
 												</div>
 											</div>
 											<div class="col-xl-2 col-md-12 col-xs-12"><!-- for spacing --></div>

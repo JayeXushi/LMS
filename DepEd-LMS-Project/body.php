@@ -42,6 +42,10 @@
                         <img src="img/deped-lrmds.png" class="w-50">
                         </a>
                     </ul>
+                    <p>In Partnership with:</p>
+                    <a href ="https://www.jcimakati.com/">
+                    <img src="img/jci-2.png" class="w-50">
+                    </a>
                 </div>
             </div>
         </div>

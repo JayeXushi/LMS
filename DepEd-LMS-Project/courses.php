@@ -36,6 +36,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                           <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -57,6 +58,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -78,6 +80,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -99,6 +102,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -120,6 +124,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -141,6 +146,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -162,6 +168,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -183,6 +190,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>
@@ -203,6 +211,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i><a href="#"><button type="button" class="mt-4 font-500">Enroll</button></a> </i>
                             </span>
                             <span class="rating-count"></span>
                         </div>

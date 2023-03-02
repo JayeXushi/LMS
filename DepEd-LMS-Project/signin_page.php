@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6" >
-          <img src="img/signin1.png" alt="Image" class="img-fluid">
+          <img src="img/signIn.png" alt="Image" class="img-fluid">
         </div>
         <div class="col-md-6 contents">
           <div class="row justify-content-center">
